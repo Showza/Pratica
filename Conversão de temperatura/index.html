@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verificador de Idade</title>
+    <title>Conversor de temperatura</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
     <header>
-        <h1>Verificador de Idade</h1>
+        <h1>Conversor de temperatura</h1>
     </header>
 
     <section>
         <div>
-            <p>Modelo</p>
+            <label for="txtt">Temperatura:</label>
+            <input type="number" name="txtt" id="txtt">
+            <input type="radio" name="temp" id="temp" checked>
+            <label for="temp">°C</label>
+            <input type="radio" name="temp" id="temp">
+            <label for="temp">°F</label>
+
+            <p>
+                <input id="botao" type="button" value="" onclick="">
+            </p>
         </div>
-        <div>Modelo</div>
+        <div id="res"></div>
     </section>
 
     <footer>

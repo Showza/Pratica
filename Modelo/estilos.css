@@ -25,6 +25,23 @@ div{
     padding: 5px;
 }
 
+#botao{
+    font-size: large;
+    width: 85px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(76, 117, 253);
+    color: white;
+    border: 0px;
+    
+}
+
+#botao:hover{
+    transition: 50ms;
+    text-decoration: underline;
+    background-color: rgba(76, 117, 253, 0.712);
+    border: 2px solid rgba(0, 0, 0, 0.315);
+}
 
 footer{
     text-shadow: -1px 3px 10px rgba(0, 0, 0, 0.438);
