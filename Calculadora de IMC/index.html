@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Calculadora de IMC</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>
+                <label for="peso">Peso: </label>
+                <input type="number" name="peso" id="peso" placeholder="Ex: 75,5" maxlength="4"><br>
+                <label for="altura">Altura: </label>
+                <input type="number" name="altura" id="altura" placeholder="Ex: 1,80" maxlength="6">
+            </p>
+            <p>
+                <input id="botao" type="button" value="Calcular" onclick="calcular()">
+            </p>
+        </div>
+        <div id="res"></div>
+    </section>
+
+    <footer>
+        <p>© Site criado por <a href="https://github.com/Showza" target="_blank"><strong>Christian Souza</strong></a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
