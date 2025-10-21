@@ -19,6 +19,7 @@ section{
     margin: auto;
     border-radius: 15px;
     box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.438);
+    padding: 10px;
 }
 
 div{
@@ -27,7 +28,7 @@ div{
 
 #botao{
     font-size: large;
-    width: 85px;
+    width: fit-content;
     height: 40px;
     border-radius: 10px;
     background-color: rgb(76, 117, 253);
