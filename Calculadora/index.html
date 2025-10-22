@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Insira os números e selecione qual a operação deseja realizar</p>
+
+            <div>
+                <label for="valor1">Insira o primeiro número: </label>
+                <input type="number" name="valor1" id="valor1"><br>
+                <label for="valor2">Insira o segundo número:</label>
+                <input type="number" name="valor2" id="valor2">
+            </div>
+
+            <div>
+                <input type="radio" name="operacoes" id="soma" checked>
+                <label for="operacoes">Soma</label>
+                <input type="radio" name="operacoes" id="subtracao">
+                <label for="operacoes">Subtração</label>
+                <input type="radio" name="operacoes" id="divisao">
+                <label for="operacoes">Divisão</label>
+                <input type="radio" name="operacoes" id="multiplicacao">
+                <label for="operacoes">Multiplicação</label>
+            </div>
+
+            <p>
+                <input id="botao" type="button" value="Calcular" onclick="calcular()">
+            </p>
+        </div>
+        <div id="res"></div>
+    </section>
+
+    <footer>
+        <p>© Site criado por <a href="https://github.com/Showza" target="_blank"><strong>Christian Souza</strong></a>
+        </p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
