@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de tarifas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Cálculo de tarifas</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Digite sua idade e informe se é estudante para saber sua tarifa</p>
+            <div>
+                <label for="idade">Digite sua idade: </label>
+                <input type="number" name="idade" id="idade">
+                <input type="radio" name="n_estudande" id="n_estudante" checked>
+                <label for="n_estudande">Não estudante</label>
+                <input type="radio" name="n_estudande" id="estudante">
+                <label for="estudande">Estudante</label>
+            </div>
+
+            <p>
+                <input id="botao" type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res"></div>
+    </section>
+
+    <footer>
+        <p>© Site criado por <a href="https://github.com/Showza" target="_blank"><strong>Christian Souza</strong></a>
+        </p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
