@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparação de números</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Comparação de números</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>
+                <label for="valor1">O número: </label>
+                <input type="number" name="valor1" id="valor1">
+                <label for="valor2">é maior, menor ou igual ao número: </label>
+                <input type="number" name="valor2" id="valor2">
+            </p>
+            <p>
+                <input id="botao" type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res"></div>
+    </section>
+
+    <footer>
+        <p>© Site criado por <a href="https://github.com/Showza" target="_blank"><strong>Christian Souza</strong></a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
