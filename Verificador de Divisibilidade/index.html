@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Divisibilidade</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Verificador de Divisibilidade</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>
+                <label for="num1">O número: </label>
+                <input type="number" name="num1" id="num1">
+                <label for="num2"> é divisível por: </label>
+                <input type="number" name="num2" id="num2"> ?
+            </p>
+            <p>
+                <input id="botao" type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res"></div>
+    </section>
+
+    <footer>
+        <p>© Site criado por <a href="https://github.com/Showza" target="_blank"><strong>Christian Souza</strong></a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
